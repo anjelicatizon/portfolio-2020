@@ -1,0 +1,21 @@
+header {
+    height: 10vh;
+
+    .headerContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            padding: 1% 0;
+            max-height: 10vh;
+        }
+
+        // Hamburger Menu
+        .fa-bars {
+            font-size: 2.5rem;
+            cursor: pointer;
+        }
+        
+    }
+}

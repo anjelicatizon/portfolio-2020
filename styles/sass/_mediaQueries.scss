@@ -1,0 +1,294 @@
+// Touch screen
+
+@media(hover: hover) and (pointer: fine) {
+    .descriptionOverlay:hover {
+        opacity: 0.95;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 1170px) {
+
+    main {
+        height: 70vh;
+    }
+
+    .about {
+        height: 80vh;
+    }
+
+    .listofWork {
+
+        .descriptionOverlay {
+
+            h3 {
+                font-size: 2.5rem;
+            }
+    
+            .toolsUsed {
+                font-size: 1.5rem;
+            }
+            
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 975px) {
+
+    .about {
+        height: 70vh;
+    }
+
+    .listofWork {
+        flex-direction: column;
+
+        .project {
+            width: 100%;
+        }
+
+        .descriptionOverlay {
+
+            h3 {
+                font-size: 3rem;
+            }
+    
+            .toolsUsed {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+            a {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 840px) {
+
+    main {
+        height: 50vh;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .about {
+
+        .aboutRight {
+
+            p {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .skillList {
+
+        li {
+            width: calc(100% / 4);
+        }
+        i {
+            font-size: 6rem;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+
+    main {
+        height: 100%;
+    }
+
+    .heroHeader {
+        flex-direction: column;
+
+        .mainLeft {
+            width: 100%;
+            margin-bottom: 5%;
+
+            h1 {
+                text-align: center;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+                margin-right: 0;
+            }
+        }
+
+        .mainRight {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    .about {
+        height: 100%;
+        flex-direction: column;
+
+        .aboutLeft {
+            width: 80%;
+            margin-top: 5%;
+        }
+
+        .aboutRight {
+            width: 100%;
+
+            .downloads {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }  
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .skillList {
+
+        i {
+            font-size: 4rem;
+        }
+    }
+
+    .overlayNav {
+
+        a {
+           font-size: 1.5rem; 
+        }
+
+        .contactOverlay {
+
+            .overlayHead {
+                font-size: 1.5rem;
+            }
+
+            .overlayBody {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .listofWork {
+
+        .descriptionOverlay {
+
+            h3 {
+                font-size: 2rem;
+            }
+    
+            .toolsUsed {
+                font-size: 1.5rem;
+            }
+    
+            p {
+                font-size: 1.5rem;
+            }
+    
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .contact {
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    
+    .skillList {
+
+        li {
+            width: calc(100% / 3);
+        }
+        i {
+            font-size: 5rem;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    .overlayNav {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .links {
+            margin-bottom: 10%;
+        }
+    }
+
+    .listofWork {
+
+        .project {
+
+            h3 {
+                font-size: 1.2rem;
+            }
+    
+            .toolsUsed {
+                font-size: 1.2rem;
+            }
+    
+            p {
+                font-size: 1.2rem;
+            }
+    
+            a {
+                font-size: 1.2rem;
+            }
+
+            .rowOne, .rowTwo {
+                padding: 5%;
+            }
+
+            .description {
+                display: none;
+            }
+            
+            .shortDescription {
+                // visibility: visible;
+                display: inline;
+                margin-bottom: 3%;
+                padding: 0;
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+}
+

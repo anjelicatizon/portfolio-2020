@@ -1,0 +1,46 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+
+    h2 {
+        width: 100%;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        margin: 2% 2%;
+    }
+
+    span {
+        color: $accent;
+    }
+
+    .socialCol {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        p {
+            margin-left: 5%;
+        }
+    
+        i {
+            color: $accent;
+            font-size: 3rem;
+            
+            &:hover,
+            &:focus {
+                color: black;
+            }
+        }
+    }
+}
+
+
+
+
+

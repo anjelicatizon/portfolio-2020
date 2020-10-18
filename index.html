@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Page Piling demo</title>
+
+        <!-- Favicon -->
+        <link type="image/png" href="./assets/anjelicaTizonFavicon.ico" rel="icon">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/58ab0192c3.js" crossorigin="anonymous"></script>
+        <!-- Dev Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+        <!-- Page Piling CSS -->
+        <link rel="stylesheet" type="text/css" href="./styles/jquery.pagepiling.css"/>
+        <!--  CSS  -->
+        <link rel="stylesheet" href="./styles/style.css">
+
+    </head>
+    <body>
+
+        <!--  Page Pilling  Strat  -->
+		<div id="pagepiling">
+
+            <!-- CONTACT OVERLAY - activated by clicking hamburger menu -->
+            <div class="section overlayContainer" id="menu" data-navigation-tooltip="menu"> <!-- Page Piling plug in requirement -->
+                <div class="wrapper">
+                    <section class="overlayNav">
+
+                        <!-- Close Button -->
+                        <!-- <i class="fas fa-times close"></i> -->
+
+                        <!-- Links - LH side -->
+                        <ul class="links" id="links">
+                            <li data-menuanchor="page1"><a href="#home">Home</a></li>
+                            <li data-menuanchor="page2"><a href="#about">About Me</a></li>
+                            <li data-menuanchor="page3"><a href="#skills">Skills</a></li>
+                            <li data-menuanchor="page4"><a href="#work">Work</a></li>
+                            <li data-menuanchor="page5"><a href="#contact">Contact</a></li>
+                        </ul>
+
+                        <!-- Contact - RH side -->
+                        <div class="contactOverlay">
+                            <p class="overlayHead">Contact Info:</p>
+                            <!-- Location -->
+                            <p class="overlayBody"><i class="fas fa-map-marker-alt"></i>  Canada</p>
+                            <!-- Email -->
+                            <p class="overlayBody"><a href="mailto:anjelicatizon@gmail.com">
+                                <i class="fas fa-envelope-open-text"></i>
+                            </a> anjelicatizon@gmail.com</p>
+                            
+                            <div class="socialLinks">
+                                <!-- Social Links -->
+                                <p class="overlayBody">Follow me:</p>
+                                <!-- Github -->
+                                <a href="https://github.com/anjelicatizon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <!-- LinkedIn -->
+                                <a href="https://www.linkedin.com/in/anjelicatizon/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <!-- Twitter -->
+                                <a href="https://twitter.com/anjelicatizon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- HERO HEADER -->
+            <div class="section hero" id="home" data-navigation-tooltip="home">  <!-- Page Piling plug in requirement -->
+                <header>
+                    <div class="wrapper">
+                        <div class="headerContainer">
+                            <!-- Logo -->
+                            <img class="logo" src="./assets/anjelicaTizonLogo.png" alt="Anjelica Tizon's logo">
+
+                            <!-- Hamburger menu -->
+                            <!-- <i class="fas fa-bars"></i> -->
+                        </div>
+                    </div>
+                </header>
+
+                <main>
+                    <div class="wrapper">
+                        <!-- Dark/Light mode toggle -->
+                        <!-- <div class="modeToggle"> -->
+                            <!-- Moon icon for dark mode -->
+                            <!-- <i class="fas fa-moon"></i> -->
+                            <!-- Sun icon for regular mode -->
+                            <!-- <i class="fas fa-sun"></i> -->
+                        <!-- </div> -->
+
+                        <section class="heroHeader">
+                            <!-- Static: Left-hand div -->
+                            <div class="mainLeft">
+                                <h1>Anjelica Tizon</h1>
+                                <h2>Front-End Developer</h2>
+                                <h3>Problem solver,</h3>
+                                <h3>graphic designer &</h3>
+                                <h3>penny/skate/longboarder</h3>
+                                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, perferendis adipisci est cum minima sed.</p> -->
+                            </div>
+
+                            <!-- Dynamic: Right-hand div -->
+                            <div class="mainRight">
+                                <img src="./assets/portfolio-cover-image-2-crop-min.png" alt="A custom skateboard deck with the words 'anjelicatizon.js and console.log('Hello world')">
+                            </div>
+                        </section>
+
+                        <!-- Dynamic: Left-hand pseudo nav bar -->
+                        <!-- <div class="lhNav">
+                            <p class="pseudoNav">Vertical Placeholder Text</p>
+                        </div> -->
+
+                        <!-- Dynamic: Right-hand nav bar -->
+                        <!-- Make these links to each section -->
+                        <!-- <ul class="rhNav">
+                            <li><a href="#home"><i class="fas fa-minus"></a></i></li>
+                            <li><a href="#about"><i class="fas fa-minus"></a></i></li>
+                            <li><a href="#skills"><i class="fas fa-minus"></a></i></li>
+                            <li><a href="#work"><i class="fas fa-minus"></a></i></li>
+                            <li><a href="#contact"><i class="fas fa-minus"></a></i></li>
+                        </ul> -->
+                    </div> 
+                </main>
+            </div>
+
+            <!-- ABOUT SECTION -->
+                <div class="section" id="about" data-navigation-tooltip="about"> <!-- Page Piling plug in requirement -->
+                    <div class="wrapper">
+
+                        <section class="about">
+
+                            <div class="aboutLeft">
+                                <div class="imageCol">
+                                    <img src="./assets/IMG-5243.png" alt="Headshot of Anjelica Tizon">
+                                </div>
+                            </div>
+
+                            <div class="aboutRight">
+                                <h2>About Me</h2>
+                                <p>A <span>front-end developer</span> with a strong foundation in <span>agile, high-growth, B2B enterprise SaaS companies</span>. My experience within Customer Success & Technical Support helps me build products and <span>solve problems in a scalable way</span>, while my graphic design and marketing background give me an <span>eye for design and usability</span>. I'm committed to shipping <span>clean, accessible, high-quality code</span> that enhances a product and the user's experience.</p>
+
+                                <div class="downloads">
+                                    <a href="./assets/anjelicatizon-resume.pdf" download="Anjelica Tizon's resume">Download Resume</a>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div> 
+                </div>
+
+                <!-- SKILLS SECTION -->
+                <div class="section" id="skills" data-navigation-tooltip="skills"> <!-- Page Piling plug in requirement -->
+                    <div class="wrapper">
+                        <section class="skills">
+                        
+                            <h2>Skills</h2>
+
+                            <ul class="skillList">
+                                <li>
+                                    <i class="fab fa-js"></i>
+                                    <p>JavaScript</p>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-jquery-plain"></i>
+                                    <p>jQuery</p>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-html5-plain"></i>
+                                    <p>HTML5</p>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-css3-plain"></i>
+                                    <p>CSS3</p>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-sass-original"></i>
+                                    <p>Sass</p>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-universal-access"></i>
+                                    <p>Accessibility</p>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-git-plain"></i>
+                                    <p>Git/Github</p>
+                                </li>
+
+                                <li>
+                                    <img src="./assets/firebase-512.png" alt="Firebase logo">
+                                    <p>Firebase</p>
+                                </li>
+
+                                <li>
+                                    <i class="fab fa-jira"></i>
+                                    <p>JIRA</p>
+                                </li>
+
+                                <li>
+                                    <img src="./assets/adobe-creative-cloud-black-logo-21.png" alt="Adobe Creative Cloud logo">
+                                    <p>Adobe Creative Cloud</p>
+                                </li>
+
+                                <li>
+                                    <img src="./assets/api (1).png" alt="An illustration of a cloud with a gear under it with 'API' written in the cloud">
+                                    <p>REST APIs</p>
+                                </li>
+
+                                <li>
+                                    <img src="./assets/responsive-design.png" alt="An illustration of a laptop screen & mobile device">
+                                    <p>Responsive Design</p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- WORK SECTION -->
+                <div class="section pp-scrollable" id="work" data-navigation-tooltip="work"> <!-- Page Piling plug in requirement -->
+                    <div class="wrapper">
+                        <section class="work">
+                        
+                            <h2>Work</h2>
+
+                            <ul class="listofWork">
+                                <li class="project">
+                                    <div class="imageCol">
+                                        <img src="./assets/Album Explorer updated.png" alt="Screenshot of the Album Explorer website">
+                                    </div>
+
+                                    <div class="descriptionOverlay rowOne">
+                                        <h3>Album Explorer</h3>
+                                        <p class="toolsUsed">React | REST API | HTML | CSS</p>
+
+                                        <div class="description">
+                                            <p>Type in any artist to view their discography and sort by release date. View the album art, explicitness, and a link to listen to the album. Created using the iTunes API.</p>
+                                        </div>
+
+                                        <div class="shortDescription">
+                                            View any artists discography details. Created using the iTunes API.
+                                        </div>
+                                        
+                                        <div class="projectLinks">
+                                            <a href="https://anjelicatizon.github.io/album-explorer/">Live</a>
+                                            <a href="https://github.com/anjelicatizon/album-explorer">Github</a>
+                                        </div>
+                                    </div>
+                                        
+                                </li>
+
+                                <li class="project">
+                                    <div class="imagCcol">
+                                        <img src="./assets/Trivia Time Updated.png" alt="Screenshot of the Trivia Time website">
+                                    </div>
+
+                                    <div class="descriptionOverlay rowOne">
+                                        <h3>Trivia Time</h3>
+                                        <p class="toolsUsed">React | REST APIs | HTML | CSS</p>
+
+                                        <div class="description">
+                                            <p>A multi-player trivia game, with a built in timer and scoreboard. Created using the Open Trivia Database and DiceBear Avatars API.</p>
+                                        </div>
+
+                                        <div class="shortDescription">
+                                            <p>A multi-player trivia game created using the Open Trivia Database & DiceBear Avatars API.</p>
+                                        </div>
+                                        
+                                        <div class="projectLinks">
+                                            <a href="https://thegloriousalpacas.github.io/trivia-time/">Live</a>
+                                            <a href="https://github.com/theGloriousAlpacas/trivia-time">Github</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="project">
+                                    <div class="imageCol">
+                                        <img src="./assets/Juice Box Tox.png" alt="Screenshot of the Juice Box Tox website">
+                                    </div>
+
+                                    <div class="descriptionOverlay rowTwo">
+                                        <h3>Juice Box Tox</h3>
+                                        <p class="toolsUsed">jQuery | HTML | Sass</p>
+                                        
+                                        <div class="description">
+                                            <p>A random question generator that serves up interesting conversation starters, based on the selected category. This app aims to get users to think about the age old question, "Is a hotdog a sandwich?"</p>
+                                        </div>
+
+                                        <div class="shortDescription">
+                                            <p>A random question generator that serves up interesting conversation starters.</p>
+                                        </div>
+                                        
+                                        <div class="projectLinks">
+                                            <a href="https://anjelicatizon.github.io/JuiceBoxTox/">Live</a> 
+                                            <a href="https://github.com/anjelicatizon/JuiceBoxTox">Github</a> 
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="project">
+                                    <div class="imageCol">
+                                        <img src="./assets/Planted.png" alt="Screenshot of the Planed website">
+                                    </div>
+
+                                    <div class="descriptionOverlay rowTwo">
+                                        <h3>Planted</h3>
+                                        <p class="toolsUsed">PSD Conversion | HTML | Sass</p>
+
+                                        <div class="description">
+                                            <p>A multi-page, pixel-perfect PSD conversion. All pages are fully responsive, while Sass is used to organize the CSS.
+                                            </p>
+                                        </div>
+
+                                        <div class="shortDescription">
+                                            <p>A multi-page, fully responsive PSD conversion.</p>
+                                        </div>
+                                        
+                                        <div class="projectLinks">
+                                            <a href="https://anjelicatizon.github.io/planted/">Live</a>
+                                            <a href="https://github.com/anjelicatizon/planted">Github</a> 
+                                        </div>
+                                    </div> 
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- GET IN TOUCH SECTION -->
+                <div class="section" id="contact" data-navigation-tooltip="contact"> <!-- Page Piling plug in requirement -->
+                    <div class="wrapper">
+                        <section class="contact">
+
+                            <h2>Get In Touch</h2>
+                            
+                            <p>
+                                If you're interested in my work I'd love to hear from you! The easiest way to get in touch is to email me at <span>anjelicatizon[at]gmail.com</span>. You can also find me here:
+                            </p>
+                            
+                            <div class="socialCol">
+                            
+                                <a href="https://github.com/anjelicatizon" class="network">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                                <a href="https://www.linkedin.com/in/anjelicatizon/" class="network">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                
+                                <a href="https://twitter.com/anjelicatizon" class="network">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                
+                            </div>
+
+                            <footer>
+                                <p>© Anjelica Tizon 2020</p>
+                            </footer>
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+
+        <!--  jQuery import  -->
+        <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+        <!--   Page Pilling Js     -->
+        <script src="./scripts/jquery.pagepiling.js"></script>
+        <!--  Custom JS  -->
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>

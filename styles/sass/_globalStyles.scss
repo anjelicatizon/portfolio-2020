@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;
+    font-family: $body-font;
+}
+
+.wrapper {
+    max-width: 1250px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: white
+}
+
+.overlayContainer {
+    background-color: rgb(50, 50, 50);
+    display: none;
+    height: 100vh;
+    z-index: 200;
+}
+
+// .skills {
+//     height: 100vh;
+// }
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 8rem;
+    color: black;
+}
+
+h1 {
+    font-family: $header-font;
+    font-size: 8rem;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-family: $header-font;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 3% 0;
+}
+
+h3 {
+    font-family: $header-font;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 2% 0;
+}
+
+p {
+    font-size: 2rem;
+    margin-bottom: 2%;
+    line-height: 150%;
+}
+
+button {
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 8%;
+    background-color: $accent;
+    margin: 2% 5%;
+
+    &:hover,
+    &:focus {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+}
+

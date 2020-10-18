@@ -1,0 +1,67 @@
+main {
+    height: 90vh;
+
+    .modeToggle {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 2%;
+
+        .fa-moon {
+            font-size: 2rem;
+            padding: 1%;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+    }
+
+    .lhNav {
+
+        .pseudoNav {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            transform: rotate(-90deg);
+            position: fixed;
+            top: 55%;
+            left: -5%;
+        }
+
+        &::before {
+            background-color: #2a2a2b;
+            transform: rotate(-90deg);
+            content: '';
+            width: 32px;
+            height: 1px;
+            position: fixed;
+            left: 25px;
+            top: 310px;
+        }
+
+        &::after {
+            background-color: #2a2a2b;
+            transform: rotate(-90deg);
+            content: '';
+            width: 32px;
+            height: 1px;
+            position: fixed;
+            left: 25px;
+            top: 595px;
+        }
+    }
+
+    .rhNav {
+        position: fixed;
+        top: 53%;
+        right: 3%;
+
+        .fa-minus {
+            font-size: 1.5rem;
+            transition: font-size 0.3s;
+
+            &:hover,
+            &:focus {
+                font-size: 3rem;
+            }
+        }
+    }
+    
+}

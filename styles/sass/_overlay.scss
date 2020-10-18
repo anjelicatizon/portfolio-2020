@@ -1,0 +1,70 @@
+.overlayNav {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .links {
+        margin-right: 10%;
+    }
+
+    .close {
+        color: white;
+        font-size: 3rem;
+        position: fixed;
+        top: 4%;
+        right: 6%;
+        cursor: pointer;
+    }
+
+    li {
+        font-size: 2rem;
+        text-transform: uppercase;
+        line-height: 2;
+    }
+
+    a {
+        color:white;
+
+        &:hover,
+        &:focus {
+            color: $accent;
+        }
+
+        i {
+            font-size: 2rem;
+            color: $accent;
+
+            &:hover,
+            &:focus {
+                color: white;
+            }
+        }
+    }
+
+    .contactOverlay {
+
+        .overlayHead {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .overlayBody {
+            color: white;
+            line-height: 2;
+            text-transform: uppercase;
+        }
+
+        .fa-map-marker-alt {
+            font-size: 2rem;
+            color: $accent;
+        }
+
+        .socialLinks i {
+            margin: 0 5% 0 0;
+        }
+    }
+}
+
+    

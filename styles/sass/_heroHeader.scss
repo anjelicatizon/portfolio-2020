@@ -1,0 +1,32 @@
+.heroHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+
+    .mainLeft {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+            color: $accent;
+            margin-right: 5%;
+            margin-bottom: 5%;
+        }
+
+        h3 {
+            margin-right: 5%;
+        }
+    }
+
+    .mainRight {
+        width: 50vw;
+        height: 80vh;
+        
+        img {
+            object-fit: cover;
+            padding-left: 2%;
+        }
+    }
+}
