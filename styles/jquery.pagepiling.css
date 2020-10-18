@@ -113,11 +113,12 @@ html, body {
 .pp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
+    color: #3cb692;
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
     max-width: 220px;
+    text-transform: uppercase;
 }
 .pp-tooltip.right {
     right: 20px;
