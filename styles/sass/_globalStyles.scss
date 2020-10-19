@@ -19,6 +19,11 @@ html {
 
 .fa-bars {
     visibility: hidden;
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 40px;
 }
 
 ul {

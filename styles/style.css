@@ -261,6 +261,11 @@ html {
 
 .fa-bars {
   visibility: hidden;
+  font-size: 2.5rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 40px;
 }
 
 ul {
@@ -395,6 +400,7 @@ button:hover, button:focus {
 
 header {
   height: 10vh;
+  padding: 2% 0;
 }
 
 header .headerContainer {
@@ -412,11 +418,6 @@ header .headerContainer {
 header .headerContainer .logo {
   padding: 1% 0;
   max-height: 10vh;
-}
-
-header .headerContainer .fa-bars {
-  font-size: 2.5rem;
-  cursor: pointer;
 }
 
 main {
@@ -494,24 +495,17 @@ main .rhNav .fa-minus:hover, main .rhNav .fa-minus:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin: 2% 0;
 }
 
 .heroHeader .mainLeft {
   width: 50vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .heroHeader .mainLeft h2 {
@@ -526,6 +520,7 @@ main .rhNav .fa-minus:hover, main .rhNav .fa-minus:focus {
 
 .heroHeader .mainRight {
   width: 50vw;
+  height: 80vh;
 }
 
 .heroHeader .mainRight img {
@@ -850,6 +845,12 @@ footer p {
 }
 
 @media (max-width: 975px) {
+  #pp-nav {
+    display: none;
+  }
+  .fa-bars {
+    visibility: visible;
+  }
   .listofWork {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -870,15 +871,6 @@ footer p {
   }
   .listofWork .descriptionOverlay a {
     font-size: 2rem;
-  }
-}
-
-@media (max-width: 840px) {
-  #pp-nav {
-    display: none;
-  }
-  .fa-bars {
-    visibility: visible;
   }
 }
 

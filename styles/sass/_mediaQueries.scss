@@ -20,6 +20,15 @@
 
 @media (max-width: 975px) {
 
+    // Hiding side nav at this breakpoint
+    #pp-nav {
+        display: none;
+    }
+
+    .fa-bars {
+        visibility: visible;
+    }
+
     .listofWork {
         flex-direction: column;
 
@@ -45,18 +54,6 @@
                 font-size: 2rem;
             }
         }
-    }
-}
-
-@media (max-width: 840px) {
-
-    // Hiding side nav at this breakpoint
-    #pp-nav {
-        display: none;
-    }
-
-    .fa-bars {
-        visibility: visible;
     }
 }
 
