@@ -1,22 +1,4 @@
-// Touch screen
-
-@media(hover: hover) and (pointer: fine) {
-    .descriptionOverlay:hover {
-        opacity: 0.95;
-        border-radius: 0;
-    }
-}
-
 @media (max-width: 1170px) {
-
-    main {
-        height: 70vh;
-    }
-
-    .about {
-        height: 80vh;
-    }
-
     .listofWork {
 
         .descriptionOverlay {
@@ -37,10 +19,6 @@
 }
 
 @media (max-width: 975px) {
-
-    .about {
-        height: 70vh;
-    }
 
     .listofWork {
         flex-direction: column;
@@ -72,9 +50,17 @@
 
 @media (max-width: 840px) {
 
-    main {
-        height: 50vh;
+    // Hiding side nav at this breakpoint
+    #pp-nav {
+        display: none;
     }
+
+    .fa-bars {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 840px) {
 
     h1 {
         font-size: 6rem;
@@ -110,10 +96,6 @@
 }
 
 @media (max-width: 630px) {
-
-    main {
-        height: 100%;
-    }
 
     .heroHeader {
         flex-direction: column;

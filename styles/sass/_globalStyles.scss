@@ -15,14 +15,11 @@ html {
 
 .overlayContainer {
     background-color: rgb(50, 50, 50);
-    display: none;
-    height: 100vh;
-    z-index: 200;
 }
 
-// .skills {
-//     height: 100vh;
-// }
+.fa-bars {
+    visibility: hidden;
+}
 
 ul {
     list-style: none;

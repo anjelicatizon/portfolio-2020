@@ -114,6 +114,8 @@ html, body {
     position: absolute;
     top: -2px;
     color: #3cb692;
+    background-color: white;
+    padding: 5%;
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;

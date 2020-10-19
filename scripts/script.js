@@ -8,10 +8,8 @@ portfolio.pagepiling = function() {
 
     // Capturing section IDs to show on right-hand menu on hover
     const ids = [];
-    const tooltips = [];
     $('.section').each(function () {
         ids.push(this.id);
-        tooltips.push($(this).data("navigation-tooltip"));
     });
 
     // Page Piling plug-in settings
@@ -22,7 +20,6 @@ portfolio.pagepiling = function() {
         verticalCentered: true,
         navigation: {
             'position': 'right',
-            'tooltips': tooltips
         },
         loopBottom: false,
         loopTop: false,
@@ -47,6 +44,11 @@ portfolio.pageRedirect = function() {
 portfolio.init = function() {
     // portfolio.pageRedirect()
     portfolio.pagepiling();
+
+    // Event listener for mobile touch devices - in place of hover effect in work section
+    $('.descriptionOverlay').on('click', function (){
+        $(this).toggleClass('opacity')
+    })
 }
 
 // Document Ready

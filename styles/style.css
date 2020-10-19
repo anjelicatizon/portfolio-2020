@@ -257,9 +257,10 @@ html {
 
 .overlayContainer {
   background-color: #323232;
-  display: none;
-  height: 100vh;
-  z-index: 200;
+}
+
+.fa-bars {
+  visibility: hidden;
 }
 
 ul {
@@ -525,7 +526,6 @@ main .rhNav .fa-minus:hover, main .rhNav .fa-minus:focus {
 
 .heroHeader .mainRight {
   width: 50vw;
-  height: 80vh;
 }
 
 .heroHeader .mainRight img {
@@ -837,20 +837,7 @@ footer p {
   margin-bottom: 0;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .descriptionOverlay:hover {
-    opacity: 0.95;
-    border-radius: 0;
-  }
-}
-
 @media (max-width: 1170px) {
-  main {
-    height: 70vh;
-  }
-  .about {
-    height: 80vh;
-  }
   .listofWork .descriptionOverlay h3 {
     font-size: 2.5rem;
   }
@@ -863,9 +850,6 @@ footer p {
 }
 
 @media (max-width: 975px) {
-  .about {
-    height: 70vh;
-  }
   .listofWork {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -890,9 +874,15 @@ footer p {
 }
 
 @media (max-width: 840px) {
-  main {
-    height: 50vh;
+  #pp-nav {
+    display: none;
   }
+  .fa-bars {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 840px) {
   h1 {
     font-size: 6rem;
   }
@@ -914,9 +904,6 @@ footer p {
 }
 
 @media (max-width: 630px) {
-  main {
-    height: 100%;
-  }
   .heroHeader {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
