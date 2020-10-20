@@ -1,12 +1,10 @@
 //Namespacing
 const portfolio = {};
 
-// ******* GLOBAL FUNCTIONS ******* 
-
 // Page Piling Plugin Effects
 portfolio.pagepiling = function() {
 
-    // Capturing section IDs to show on right-hand menu on hover
+    // Capturing section IDs to connect to right-hand menu
     const ids = [];
     $('.section').each(function () {
         ids.push(this.id);
@@ -19,7 +17,7 @@ portfolio.pagepiling = function() {
         direction: 'vertical',
         verticalCentered: true,
         navigation: {
-            'position': 'right',
+            'position': 'right'
         },
         loopBottom: false,
         loopTop: false,
@@ -35,14 +33,8 @@ portfolio.pagepiling = function() {
 	});
 }
 
-// Redirect so when a user comes to my site, it will automatically go to #home
-portfolio.pageRedirect = function() {
-    window.location.replace("http://www.anjelicatizon.com/#home");
-}  
-
 // Init
 portfolio.init = function() {
-    // portfolio.pageRedirect()
     portfolio.pagepiling();
 
     // Event listener for mobile touch devices - in place of hover effect in work section

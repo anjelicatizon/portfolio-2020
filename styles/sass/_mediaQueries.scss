@@ -25,10 +25,6 @@
         display: none;
     }
 
-    .fa-bars {
-        visibility: visible;
-    }
-
     .listofWork {
         flex-direction: column;
 
@@ -260,7 +256,6 @@
             }
             
             .shortDescription {
-                // visibility: visible;
                 display: inline;
                 margin-bottom: 3%;
                 padding: 0;

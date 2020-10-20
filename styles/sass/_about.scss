@@ -1,5 +1,4 @@
 .about {
-    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,21 +37,6 @@
                 background-color: black;
                 color: white;
             }
-        }
-    }
-
-    .socialIcons {
-        display: flex;
-
-        .network {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        a {
-            margin-right: 10%;
         }
     }
 }

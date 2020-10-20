@@ -18,7 +18,6 @@ html {
 }
 
 .fa-bars {
-    visibility: hidden;
     font-size: 2.5rem;
     cursor: pointer;
     position: fixed;
@@ -68,22 +67,5 @@ p {
     font-size: 2rem;
     margin-bottom: 2%;
     line-height: 150%;
-}
-
-button {
-    border: 1px solid white;
-    color: white;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    padding: 8%;
-    background-color: $accent;
-    margin: 2% 5%;
-
-    &:hover,
-    &:focus {
-        background-color: black;
-        color: white;
-        border: 1px solid white;
-    }
 }
 

@@ -29,19 +29,11 @@
             }
         }
 
-        .rowOne {
+        .rowOne, .rowTwo {
             top: 0;
             width: 100%;
             height: 100%;
             padding: 10%;
-            border-radius: 50%;
-            transition: all 0.5s ease;
-        }
-
-        .rowTwo {
-            top: 0;
-            width: 100%;
-            height: 100%;
             border-radius: 50%;
             transition: all 0.5s ease;
         }
@@ -80,7 +72,6 @@
         }
         
         .shortDescription {
-            // visibility: hidden;
             display: none;
         }
 

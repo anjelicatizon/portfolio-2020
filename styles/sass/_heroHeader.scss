@@ -6,9 +6,6 @@
 
     .mainLeft {
         width: 50vw;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
 
         h2 {
             color: $accent;
@@ -23,11 +20,10 @@
 
     .mainRight {
         width: 50vw;
-        height: 80vh;
         
         img {
-            object-fit: cover;
             padding-left: 2%;  
+            height: 80%;
         }
     }
 }
