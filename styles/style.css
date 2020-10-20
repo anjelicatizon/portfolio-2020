@@ -432,11 +432,13 @@ header .headerContainer .logo {
 
 .heroHeader .mainRight {
   width: 50vw;
+  height: 80vh;
 }
 
 .heroHeader .mainRight img {
   padding-left: 2%;
-  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about {

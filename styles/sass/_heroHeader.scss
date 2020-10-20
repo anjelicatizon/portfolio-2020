@@ -20,10 +20,11 @@
 
     .mainRight {
         width: 50vw;
+        height: 80vh;
         
         img {
             padding-left: 2%;  
-            height: 80%;
+            object-fit: cover;
         }
     }
 }
